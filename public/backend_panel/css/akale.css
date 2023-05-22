@@ -1,0 +1,149 @@
+.block_inner_wrap{
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+}
+
+.red_block{
+    padding: 50px 20px;
+    background-color: #ff6d6d;
+    border-radius: 16px;
+    color: #fff;
+    height: 45vh;
+    margin-top: 183px;
+}
+@media (max-width: 768px) {
+    .red_block {
+        margin-top: 20px;
+    }
+}
+.input_style .form-control{
+    background-color: #fde6e6;
+    border: none !important;
+    font-size: 18px;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 20px 12px;
+}
+
+.input_style .form-control:hover, .input_style .form-control:focus{
+    background-color: #e7e5e5;
+}
+
+.input_style label{
+    font-size: 13px;
+}
+
+.send_msg_btn{
+    background-color: #ff0000;
+    color: #fff;
+    outline: none !important;
+    padding: 8px 25px;
+    font-size: 14px;
+    border: solid 1px #ff0000 !important;
+    border-radius: 7px;
+}
+
+.send_msg_btn:hover, .send_msg_btn:active, .send_msg_btn:focus{
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.input_style{
+    padding-top: 15px;
+}
+
+a.h3_bold {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+a.h3_bold:hover{
+    text-decoration: none !important;
+    opacity: .8;
+}
+
+.cont_page_inner_wrap{
+    padding-bottom: 10vh;
+}
+
+.cont_info{
+    font-size: 15px;
+}
+
+.red_block .block_title{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+p.not_info {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/*news poromotion page*/
+.single_prom_section .block_title{
+    color: #ff0000;
+    width: 100%;
+    display: block;
+    padding: 10px 0px;
+    border-bottom: solid 2px #ffd3d3;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.single_promo_block{
+    width: calc((100% / 5) - 3px);
+    margin: 0 auto;
+    position: relative;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.promo_image_style{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.single_prom_section{
+    border-bottom: solid 2px #ffd4d4;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.single_prom_section:last-child{
+    border-bottom: none;
+    margin-bottom: 10vh;
+}
+
+.prom_cont_wrap{
+    margin: 30px 0 15px;
+}
+
+.no_tuto_box_text{
+    color: #b3b3b3;
+    font-size: 15px;
+}
+/*news poromotion page*/
+
+@media (max-width: 768px) {
+    .single_promo_block{
+        width: 80%;
+        display: block;
+        height: initial;
+    }
+    .single_prom_section{
+        padding: 0 20px;
+    }
+}

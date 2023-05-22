@@ -1,0 +1,130 @@
+html {
+    /*background: url("../img/bg.png") no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url("http://eaterin.com/public/images/landing_page/bgBlured.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*-webkit-filter: blur(8px);*/
+    /*-webkit-transition-delay: 2s;*/
+    /*-webkit-transition-duration: 0.8s;*/
+
+    /*background-size: auto;*/
+
+    overflow: hidden;
+    margin: 0;
+}
+
+/*body:hover{*/
+/*background: url("../img/bgBlured.png") no-repeat center center fixed;*/
+/*}*/
+
+#logo{
+    padding-top: 5%;
+    width: 15%;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+}
+
+
+.social-btn{
+    margin:0 15px 10px 15px;
+}
+
+.social-btn:hover{
+    text-decoration: none;
+}
+
+#footer {
+    bottom: 0;
+    position: fixed;
+}
+
+.bg-image {
+
+
+    background-image: url("http://eaterin.com/public/images/landing_page/bgBlured.png");
+
+    /*filter: blur(8px);*/
+    -webkit-filter: blur(8px);
+    -webkit-transition-delay: 0.4s;
+    -webkit-transition-duration: 0.8s;
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 1440px) {
+    h1{
+        font-size: 1.8em;
+        padding-top: 15%;
+    }
+    h3{
+        font-size: 1.2em;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    h6{
+        font-size: 0.8em;
+    }
+
+
+    #logo {
+        padding-top: 8%;
+        width: 15%;
+    }
+}
+@media only screen and (max-width: 927px) {
+    section div img.phoneImg{
+        display: none;
+    }
+    #btn-store img{
+        width: 100px;
+        margin: 2%;
+    }
+
+    #logo {
+        padding-top: 15%;
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    section div img.phoneImg{
+        display: none;
+    }
+    #btn-store img{
+        width: 100px;
+        margin: 2%;
+    }
+
+    #logo {
+        padding-top: 15%;
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #logo {
+        padding-top: 15%;
+        width: 50%;
+    }
+}
+

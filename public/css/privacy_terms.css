@@ -1,0 +1,22 @@
+body{
+	margin: 0 20%;
+}
+section{
+	text-align: justify;
+	font-family: Arial;
+}
+section h1{
+	font-weight: bold;
+	font-size: 1.8em;
+}
+section h2{
+	font-weight: bold;
+	font-size: 1em;
+}
+section ul{
+list-style-type:disc;
+}
+section li{
+	/*list-style-type: none;*/
+	margin-left: 3%;
+}
